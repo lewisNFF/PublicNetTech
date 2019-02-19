@@ -62,7 +62,10 @@ git push origin master
 导入项目，设置仓库地址，文档类型为mkdocs
 ## 参考项目地址
 [https://github.com/lewisNFF/PublicTech.git](https://github.com/lewisNFF/PublicTech.git)
-## 构建失败可能的问题
+## 其他问题
+
+### 构建失败可能的问题
+
 1. 没有正确的weekhook
 没有关联github账号的话，新建项目的地址使用https，不能使用ssh
 在管理→集成下添加webhook
@@ -70,3 +73,14 @@ git push origin master
 在docs文件夹下添加requirements.txt[参考](https://github.com/lewisNFF/PublicTech/blob/master/docs/requirements.txt)。旧版本的mkdocs使用pages标签而不是nav
 mkdocs==1.0.4
 
+### 设置主题和highlightjs
+```yaml
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+```
+参考配置文件：
+[https://github.com/mkdocs/mkdocs/blob/master/mkdocs.yml](https://github.com/mkdocs/mkdocs/blob/master/mkdocs.yml)
