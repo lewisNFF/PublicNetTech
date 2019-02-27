@@ -1,6 +1,6 @@
 # Welcome to PublicTech
 
-全部文档请访问 [https://github.com/lewisNFF/PublicTech.git](https://github.com/lewisNFF/PublicTech.git).
+欢迎您的到来
 
 ## 常见技能
 

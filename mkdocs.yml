@@ -1,4 +1,6 @@
-site_name: My Docs
+site_name: Public Net tech
+site_author: lewis
+repo_url: https://github.com/lewisNFF/PublicNetTech
 nav:
     - Home: index.md
     - how_to_use_mkdocs: use_mkdocs.md
