@@ -3,4 +3,5 @@ nav:
     - Home: index.md
     - how_to_use_mkdocs: use_mkdocs.md
     - blog component: blog_contain.md
+    - sshfs: sshfs.md
 theme: readthedocs
